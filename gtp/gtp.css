@@ -1,0 +1,155 @@
+body {
+    background-color: black;
+  }
+/* desktop-blocker */
+.desktop-blocker-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 529px;
+    margin: 0 auto;
+  }
+  
+  .desktop-blocker-text {
+    width: 529px;
+    text-align: center;
+  }
+  
+  .text1 {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .text2 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  /* desktop-blocker */   
+.chat-with-gtp{
+    display: none;
+}
+@media (max-width: 428px) {
+  * {
+    margin: 0;
+  }
+  body {
+    background-color: black;
+    font-family: Montserrat;
+  }
+
+  .desktop-blocker{
+    display: none;
+  }
+  .chat-with-gtp{
+    display: block;
+    height: 826px;
+    width: 100%;
+}
+
+.message2{
+  color: white;
+}
+  .chat-with-gtp-container {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 394px;
+    height: 72px;
+    margin: 0 auto;
+  }
+  .gtp-header {
+    background: rgba(30, 30, 30, 1);
+    width: auto;
+    height: 72px;
+  }
+
+  .gtp-header-text {
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 10px;
+  }
+
+  .chat-window {
+      background-color: black;
+      height: 664px;
+      width: 394px;
+      margin: 0 auto;
+    }
+
+    .gtp-messages{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 200px;
+        margin-top: 24px;
+    }
+    .account1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      width: 274px;
+      height: 46px;
+    }
+
+    .text{
+      display: block;
+    }
+    .account1-logo-name{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+  .chat-gtp-name {
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 5px;
+  }
+  .message{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+
+  .write-bar{
+    background: rgba(30, 30, 30, 1);
+    width: 100%;
+    height: 72px;
+    margin-bottom: 0;
+  }
+
+  .write-bar-container{
+    display: flex;
+    width: 394px;
+    height: 72px;
+    margin: 0 auto;
+  }
+  .write-stroke{
+    width: 300px;
+    background: rgba(30, 30, 30, 1);
+    border: none;
+    color: white;
+  }
+
+  .send-btn{
+    background: none;
+    border: none;
+    margin-left: 40px;
+  }
+}
